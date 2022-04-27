@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  background-color: #2f2a2a;
+  direction: rtl;
+  font-size: 10px;
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  background-image: url("/assets/_Group_ (1) 1.png");
+  background-repeat: no-repeat;
+  background-position: 30rem 10rem;
+}
+
+#root {
+  position: relative;
+  margin: 10rem 15rem;
+}
+
+#root .tile {
+  position: absolute;
+  left: -139px;
+  bottom: 28rem;
+  -webkit-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+  z-index: 999;
+}
+
+#root .magen {
+  position: absolute;
+  left: 17rem;
+  bottom: 2rem;
+  -webkit-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+  z-index: 999;
+  display: none;
+}
+
+#root .logo {
+  position: fixed;
+  left: 50%;
+  bottom: 2rem;
+  width: 15rem;
+  -webkit-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+}
+
+#root .logo:hover {
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+}
+
+#root .magen:hover,
+#root .tile:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+#root .candle {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow-x: hidden;
+  gap: 0rem;
+  margin-top: 2rem;
+}
+
+#root .candle img {
+  display: inline;
+  position: relative;
+}
+
+#root .candle p {
+  font-size: 20pt;
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#root .infoContainer {
+  margin-bottom: 6rem;
+  width: 150rem;
+}
+
+#root .infoContainer .mainHeading {
+  font-size: 10rem;
+  font-weight: 900;
+  color: #fff;
+  text-align: right;
+  margin-bottom: 6rem;
+}
+
+#root .infoContainer .topPara,
+#root .infoContainer .middlePara,
+#root .infoContainer .bottonPara {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: right;
+  width: 50%;
+  margin-bottom: 1.5rem;
+}
+
+#root .btnContainer {
+  width: 20rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+}
+
+#root .btnContainer .btn {
+  width: 25rem;
+  height: 8.1rem;
+  background-color: #c57171;
+  font-size: 3rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  color: #2f2a2a;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  border: none;
+  -webkit-box-shadow: 0rem 1rem 1rem #222;
+          box-shadow: 0rem 1rem 1rem #222;
+  cursor: pointer;
+}
+
+#root .btnContainer .btn:hover {
+  background: #c57171;
+  background: linear-gradient(34deg, #c57171 61%, #e2db4e 100%);
+  color: white;
+}
+
+#root .btnContainer .btn:active {
+  -webkit-box-shadow: 0rem 1rem 1rem #000;
+          box-shadow: 0rem 1rem 1rem #000;
+  -webkit-transform: translateY(0.5rem);
+          transform: translateY(0.5rem);
+}
+
+@media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+  }
+  html {
+    background-color: #2f2a2a;
+    direction: rtl;
+    font-size: 10px;
+    width: 100vw;
+    height: 100vh;
+  }
+  body {
+    width: 100%;
+    background-image: none;
+    background-position: 15rem 0rem;
+    background-size: 10rem;
+    overflow-y: visible;
+    z-index: 999;
+    position: relative;
+  }
+  .candle {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow-x: scroll;
+    gap: 0rem;
+    margin-top: 2rem;
+  }
+  .candle img {
+    display: inline;
+  }
+  .candle p {
+    font-size: 20pt;
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  #root {
+    position: relative;
+    margin: 3rem 2rem;
+  }
+  #root .tile {
+    position: absolute;
+    left: -139px;
+    bottom: 28rem;
+    -webkit-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+    display: none;
+  }
+  #root .magen {
+    position: relative;
+    left: 0rem;
+    bottom: 1rem;
+    -webkit-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+    width: 10rem;
+    display: block;
+  }
+  #root .logo {
+    position: fixed;
+    left: 35%;
+    bottom: 2rem;
+    width: 12rem;
+    -webkit-transition: all 0.75s ease;
+    transition: all 0.75s ease;
+  }
+  #root .logo:hover {
+    -webkit-transform: scale(1.7);
+            transform: scale(1.7);
+  }
+  #root .magen:hover,
+  #root .tile:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  #root .infoContainer {
+    margin-bottom: 5rem;
+    width: 100%;
+    text-align: center;
+  }
+  #root .infoContainer .mainHeading {
+    font-size: 5rem;
+    font-weight: 900;
+    color: #fff;
+    text-align: right;
+    margin-bottom: 5rem;
+  }
+  #root .infoContainer .topPara,
+  #root .infoContainer .middlePara,
+  #root .infoContainer .bottonPara {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  #root .btnContainer {
+    width: 100%;
+    position: relative;
+    left: -3.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    justify-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 2rem;
+  }
+  #root .btnContainer .btn {
+    width: 13rem;
+    height: 5rem;
+    background-color: #c57171;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    color: #2f2a2a;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    border: none;
+    -webkit-box-shadow: 0rem 1rem 1rem #222;
+            box-shadow: 0rem 1rem 1rem #222;
+    cursor: pointer;
+  }
+  #root .btnContainer .btn:hover {
+    background: #c57171;
+    background: linear-gradient(34deg, #c57171 61%, #e2db4e 100%);
+    color: white;
+  }
+  #root .btnContainer .btn:active {
+    -webkit-box-shadow: 0rem 1rem 1rem #000;
+            box-shadow: 0rem 1rem 1rem #000;
+    -webkit-transform: translateY(0.5rem);
+            transform: translateY(0.5rem);
+  }
+}
+/*# sourceMappingURL=style.css.map */
