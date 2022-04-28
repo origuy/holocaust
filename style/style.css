@@ -251,11 +251,11 @@ body {
     text-align: center;
   }
   #root .infoContainer .mainHeading {
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 900;
     color: #fff;
     text-align: right;
-    margin-bottom: 5rem;
+    margin-bottom: 2.5rem;
   }
   #root .infoContainer .topPara,
   #root .infoContainer .middlePara,
