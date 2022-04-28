@@ -283,6 +283,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     gap: 2rem;
+    margin-bottom: 100px;
   }
   #root .btnContainer .btn {
     width: 13rem;
