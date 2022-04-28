@@ -128,7 +128,6 @@ body {
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
   gap: 2rem;
-  margin-bottom: 200px;
 }
 
 #root .btnContainer .btn {
@@ -284,7 +283,7 @@ body {
         -ms-flex-align: center;
             align-items: center;
     gap: 2rem;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
   #root .btnContainer .btn {
     width: 13rem;
