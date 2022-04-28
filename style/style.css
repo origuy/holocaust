@@ -225,7 +225,7 @@ body {
     bottom: 1rem;
     -webkit-transition: all 0.75s ease;
     transition: all 0.75s ease;
-    width: 10rem;
+    width: 7rem;
     display: block;
   }
   #root .logo {
